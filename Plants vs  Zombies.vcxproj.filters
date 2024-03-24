@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\res">
+      <UniqueIdentifier>{e0f922ec-8d8e-493c-939d-454326979f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\bullets">
+      <UniqueIdentifier>{5b116ca6-363f-4196-90cf-927902aaae78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\Cards">
+      <UniqueIdentifier>{f948f24c-2e80-43cd-8267-54e0f6df5e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\sound">
+      <UniqueIdentifier>{e9d5f6b5-cd3b-4a96-b331-95ea30ccd4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\sunshine">
+      <UniqueIdentifier>{affe1914-f7e7-4a0a-8050-e61e0d799db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zhiwu">
+      <UniqueIdentifier>{1c0a1338-8ff9-477f-8828-a7dd3771bf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zhiwu\0">
+      <UniqueIdentifier>{2c7689c2-5ebb-4ada-859f-4f406b77fecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zhiwu\1">
+      <UniqueIdentifier>{285c9d46-273c-4f70-869b-c88b55e02150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm">
+      <UniqueIdentifier>{87e47070-f928-428c-b0f6-06434c6192f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm\0">
+      <UniqueIdentifier>{49db4291-685a-4e7f-b0f1-5d50db14f766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm\1">
+      <UniqueIdentifier>{229d800d-00c5-4406-8aa4-e285b598bdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_dead">
+      <UniqueIdentifier>{9e814f2d-65da-4b50-b6c8-c728360e2562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_dead_head">
+      <UniqueIdentifier>{40edb2f9-c581-4427-8c0a-afa37cabdb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_eat">
+      <UniqueIdentifier>{6363d578-695c-4432-bd89-3030d78a131d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_eat\0">
+      <UniqueIdentifier>{4d611712-b4fb-4bcc-9986-a49df74904ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_eat\1">
+      <UniqueIdentifier>{7267521b-f4dd-469d-bc49-ab66ea08ef13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\res\zm_stand">
+      <UniqueIdentifier>{306edec2-8bb8-4cf6-ba48-940f8635d233}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Bar.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\bg.jpg">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\fail.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\menu.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\menu1.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\menu2.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\win.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="res\bullets\bullet_blast.png">
+      <Filter>资源文件\res\bullets</Filter>
+    </Image>
+    <Image Include="res\bullets\bullet_normal.png">
+      <Filter>资源文件\res\bullets</Filter>
+    </Image>
+    <Image Include="res\Cards\card_1.png">
+      <Filter>资源文件\res\Cards</Filter>
+    </Image>
+    <Image Include="res\Cards\card_2.png">
+      <Filter>资源文件\res\Cards</Filter>
+    </Image>
+    <Image Include="res\sunshine\1.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\2.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\3.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\4.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\5.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\6.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\7.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\8.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\9.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\10.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\11.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\12.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\13.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\14.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\15.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\16.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\17.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\18.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\19.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\20.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\21.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\22.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\23.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\24.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\25.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\26.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\27.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\28.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\sunshine\29.png">
+      <Filter>资源文件\res\sunshine</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\1.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\2.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\3.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\4.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\5.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\6.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\7.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\8.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\9.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\10.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\11.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\12.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\0\13.png">
+      <Filter>资源文件\res\zhiwu\0</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\1.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\2.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\3.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\4.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\5.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\6.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\7.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\8.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\9.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\10.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\11.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\12.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\13.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\14.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\15.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zhiwu\1\16.png">
+      <Filter>资源文件\res\zhiwu\1</Filter>
+    </Image>
+    <Image Include="res\zm\0\1.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\2.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\3.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\4.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\5.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\6.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\7.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\8.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\9.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\10.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\11.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\0\12.png">
+      <Filter>资源文件\res\zm\0</Filter>
+    </Image>
+    <Image Include="res\zm\1\1.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\2.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\3.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\4.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\5.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\6.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\7.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\8.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\9.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\10.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\11.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\12.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\13.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\14.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\15.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\16.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\17.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm\1\18.png">
+      <Filter>资源文件\res\zm\1</Filter>
+    </Image>
+    <Image Include="res\zm_dead\1.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\2.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\3.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\4.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\5.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\6.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\7.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\8.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\9.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\10.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\11.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead\12.png">
+      <Filter>资源文件\res\zm_dead</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\1.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\2.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\3.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\4.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\5.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\6.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\7.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\8.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\9.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\10.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\11.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_dead_head\12.png">
+      <Filter>资源文件\res\zm_dead_head</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\1.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\2.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\3.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\4.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\5.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\6.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\7.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\8.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\9.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\10.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\11.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\12.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\13.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\14.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\15.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\16.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\17.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\18.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\19.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\20.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\0\21.png">
+      <Filter>资源文件\res\zm_eat\0</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\1.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\2.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\3.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\4.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\5.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\6.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\7.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\8.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\9.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\10.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\11.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\12.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\13.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\14.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\15.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\16.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\17.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\18.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\19.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\20.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_eat\1\21.png">
+      <Filter>资源文件\res\zm_eat\1</Filter>
+    </Image>
+    <Image Include="res\zm_stand\1.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\2.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\3.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\4.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\5.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\6.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\7.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\8.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\9.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\10.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\11.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\12.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\13.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+    <Image Include="res\zm_stand\14.png">
+      <Filter>资源文件\res\zm_stand</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sound\awooga.mp3">
+      <Filter>资源文件\res\sound</Filter>
+    </Media>
+    <Media Include="res\sound\kernelpult.mp3">
+      <Filter>资源文件\res\sound</Filter>
+    </Media>
+    <Media Include="res\sound\kernelpult.wav">
+      <Filter>资源文件\res\sound</Filter>
+    </Media>
+    <Media Include="res\sound\sunshine.mp3">
+      <Filter>资源文件\res\sound</Filter>
+    </Media>
+    <Media Include="res\sound\sunshine.wav">
+      <Filter>资源文件\res\sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

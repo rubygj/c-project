@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{32548916-5170-4767-997c-14caf4a6f75e}</ProjectGuid>
+    <RootNamespace>PlantsvsZombies</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="vector2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Bar.png" />
+    <Image Include="res\bg.jpg" />
+    <Image Include="res\bullets\bullet_blast.png" />
+    <Image Include="res\bullets\bullet_normal.png" />
+    <Image Include="res\Cards\card_1.png" />
+    <Image Include="res\Cards\card_2.png" />
+    <Image Include="res\fail.png" />
+    <Image Include="res\menu.png" />
+    <Image Include="res\menu1.png" />
+    <Image Include="res\menu2.png" />
+    <Image Include="res\sunshine\1.png" />
+    <Image Include="res\sunshine\10.png" />
+    <Image Include="res\sunshine\11.png" />
+    <Image Include="res\sunshine\12.png" />
+    <Image Include="res\sunshine\13.png" />
+    <Image Include="res\sunshine\14.png" />
+    <Image Include="res\sunshine\15.png" />
+    <Image Include="res\sunshine\16.png" />
+    <Image Include="res\sunshine\17.png" />
+    <Image Include="res\sunshine\18.png" />
+    <Image Include="res\sunshine\19.png" />
+    <Image Include="res\sunshine\2.png" />
+    <Image Include="res\sunshine\20.png" />
+    <Image Include="res\sunshine\21.png" />
+    <Image Include="res\sunshine\22.png" />
+    <Image Include="res\sunshine\23.png" />
+    <Image Include="res\sunshine\24.png" />
+    <Image Include="res\sunshine\25.png" />
+    <Image Include="res\sunshine\26.png" />
+    <Image Include="res\sunshine\27.png" />
+    <Image Include="res\sunshine\28.png" />
+    <Image Include="res\sunshine\29.png" />
+    <Image Include="res\sunshine\3.png" />
+    <Image Include="res\sunshine\4.png" />
+    <Image Include="res\sunshine\5.png" />
+    <Image Include="res\sunshine\6.png" />
+    <Image Include="res\sunshine\7.png" />
+    <Image Include="res\sunshine\8.png" />
+    <Image Include="res\sunshine\9.png" />
+    <Image Include="res\win.png" />
+    <Image Include="res\zhiwu\0\1.png" />
+    <Image Include="res\zhiwu\0\10.png" />
+    <Image Include="res\zhiwu\0\11.png" />
+    <Image Include="res\zhiwu\0\12.png" />
+    <Image Include="res\zhiwu\0\13.png" />
+    <Image Include="res\zhiwu\0\2.png" />
+    <Image Include="res\zhiwu\0\3.png" />
+    <Image Include="res\zhiwu\0\4.png" />
+    <Image Include="res\zhiwu\0\5.png" />
+    <Image Include="res\zhiwu\0\6.png" />
+    <Image Include="res\zhiwu\0\7.png" />
+    <Image Include="res\zhiwu\0\8.png" />
+    <Image Include="res\zhiwu\0\9.png" />
+    <Image Include="res\zhiwu\1\1.png" />
+    <Image Include="res\zhiwu\1\10.png" />
+    <Image Include="res\zhiwu\1\11.png" />
+    <Image Include="res\zhiwu\1\12.png" />
+    <Image Include="res\zhiwu\1\13.png" />
+    <Image Include="res\zhiwu\1\14.png" />
+    <Image Include="res\zhiwu\1\15.png" />
+    <Image Include="res\zhiwu\1\16.png" />
+    <Image Include="res\zhiwu\1\2.png" />
+    <Image Include="res\zhiwu\1\3.png" />
+    <Image Include="res\zhiwu\1\4.png" />
+    <Image Include="res\zhiwu\1\5.png" />
+    <Image Include="res\zhiwu\1\6.png" />
+    <Image Include="res\zhiwu\1\7.png" />
+    <Image Include="res\zhiwu\1\8.png" />
+    <Image Include="res\zhiwu\1\9.png" />
+    <Image Include="res\zm\0\1.png" />
+    <Image Include="res\zm\0\10.png" />
+    <Image Include="res\zm\0\11.png" />
+    <Image Include="res\zm\0\12.png" />
+    <Image Include="res\zm\0\2.png" />
+    <Image Include="res\zm\0\3.png" />
+    <Image Include="res\zm\0\4.png" />
+    <Image Include="res\zm\0\5.png" />
+    <Image Include="res\zm\0\6.png" />
+    <Image Include="res\zm\0\7.png" />
+    <Image Include="res\zm\0\8.png" />
+    <Image Include="res\zm\0\9.png" />
+    <Image Include="res\zm\1\1.png" />
+    <Image Include="res\zm\1\10.png" />
+    <Image Include="res\zm\1\11.png" />
+    <Image Include="res\zm\1\12.png" />
+    <Image Include="res\zm\1\13.png" />
+    <Image Include="res\zm\1\14.png" />
+    <Image Include="res\zm\1\15.png" />
+    <Image Include="res\zm\1\16.png" />
+    <Image Include="res\zm\1\17.png" />
+    <Image Include="res\zm\1\18.png" />
+    <Image Include="res\zm\1\2.png" />
+    <Image Include="res\zm\1\3.png" />
+    <Image Include="res\zm\1\4.png" />
+    <Image Include="res\zm\1\5.png" />
+    <Image Include="res\zm\1\6.png" />
+    <Image Include="res\zm\1\7.png" />
+    <Image Include="res\zm\1\8.png" />
+    <Image Include="res\zm\1\9.png" />
+    <Image Include="res\zm_dead\1.png" />
+    <Image Include="res\zm_dead\10.png" />
+    <Image Include="res\zm_dead\11.png" />
+    <Image Include="res\zm_dead\12.png" />
+    <Image Include="res\zm_dead\2.png" />
+    <Image Include="res\zm_dead\3.png" />
+    <Image Include="res\zm_dead\4.png" />
+    <Image Include="res\zm_dead\5.png" />
+    <Image Include="res\zm_dead\6.png" />
+    <Image Include="res\zm_dead\7.png" />
+    <Image Include="res\zm_dead\8.png" />
+    <Image Include="res\zm_dead\9.png" />
+    <Image Include="res\zm_dead_head\1.png" />
+    <Image Include="res\zm_dead_head\10.png" />
+    <Image Include="res\zm_dead_head\11.png" />
+    <Image Include="res\zm_dead_head\12.png" />
+    <Image Include="res\zm_dead_head\2.png" />
+    <Image Include="res\zm_dead_head\3.png" />
+    <Image Include="res\zm_dead_head\4.png" />
+    <Image Include="res\zm_dead_head\5.png" />
+    <Image Include="res\zm_dead_head\6.png" />
+    <Image Include="res\zm_dead_head\7.png" />
+    <Image Include="res\zm_dead_head\8.png" />
+    <Image Include="res\zm_dead_head\9.png" />
+    <Image Include="res\zm_eat\0\1.png" />
+    <Image Include="res\zm_eat\0\10.png" />
+    <Image Include="res\zm_eat\0\11.png" />
+    <Image Include="res\zm_eat\0\12.png" />
+    <Image Include="res\zm_eat\0\13.png" />
+    <Image Include="res\zm_eat\0\14.png" />
+    <Image Include="res\zm_eat\0\15.png" />
+    <Image Include="res\zm_eat\0\16.png" />
+    <Image Include="res\zm_eat\0\17.png" />
+    <Image Include="res\zm_eat\0\18.png" />
+    <Image Include="res\zm_eat\0\19.png" />
+    <Image Include="res\zm_eat\0\2.png" />
+    <Image Include="res\zm_eat\0\20.png" />
+    <Image Include="res\zm_eat\0\21.png" />
+    <Image Include="res\zm_eat\0\3.png" />
+    <Image Include="res\zm_eat\0\4.png" />
+    <Image Include="res\zm_eat\0\5.png" />
+    <Image Include="res\zm_eat\0\6.png" />
+    <Image Include="res\zm_eat\0\7.png" />
+    <Image Include="res\zm_eat\0\8.png" />
+    <Image Include="res\zm_eat\0\9.png" />
+    <Image Include="res\zm_eat\1\1.png" />
+    <Image Include="res\zm_eat\1\10.png" />
+    <Image Include="res\zm_eat\1\11.png" />
+    <Image Include="res\zm_eat\1\12.png" />
+    <Image Include="res\zm_eat\1\13.png" />
+    <Image Include="res\zm_eat\1\14.png" />
+    <Image Include="res\zm_eat\1\15.png" />
+    <Image Include="res\zm_eat\1\16.png" />
+    <Image Include="res\zm_eat\1\17.png" />
+    <Image Include="res\zm_eat\1\18.png" />
+    <Image Include="res\zm_eat\1\19.png" />
+    <Image Include="res\zm_eat\1\2.png" />
+    <Image Include="res\zm_eat\1\20.png" />
+    <Image Include="res\zm_eat\1\21.png" />
+    <Image Include="res\zm_eat\1\3.png" />
+    <Image Include="res\zm_eat\1\4.png" />
+    <Image Include="res\zm_eat\1\5.png" />
+    <Image Include="res\zm_eat\1\6.png" />
+    <Image Include="res\zm_eat\1\7.png" />
+    <Image Include="res\zm_eat\1\8.png" />
+    <Image Include="res\zm_eat\1\9.png" />
+    <Image Include="res\zm_stand\1.png" />
+    <Image Include="res\zm_stand\10.png" />
+    <Image Include="res\zm_stand\11.png" />
+    <Image Include="res\zm_stand\12.png" />
+    <Image Include="res\zm_stand\13.png" />
+    <Image Include="res\zm_stand\14.png" />
+    <Image Include="res\zm_stand\2.png" />
+    <Image Include="res\zm_stand\3.png" />
+    <Image Include="res\zm_stand\4.png" />
+    <Image Include="res\zm_stand\5.png" />
+    <Image Include="res\zm_stand\6.png" />
+    <Image Include="res\zm_stand\7.png" />
+    <Image Include="res\zm_stand\8.png" />
+    <Image Include="res\zm_stand\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sound\awooga.mp3" />
+    <Media Include="res\sound\kernelpult.mp3" />
+    <Media Include="res\sound\kernelpult.wav" />
+    <Media Include="res\sound\sunshine.mp3" />
+    <Media Include="res\sound\sunshine.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
